@@ -1,0 +1,32 @@
+\documentclass[12pt,letterpaper]{amsart}
+\usepackage[fontsize=12bp]{fontsize}
+\usepackage{amsmath,amssymb,amsthm, MnSymbol}
+\title{Schach?}
+\author[]{:D}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newpxtext}
+\usepackage{eulerpx}
+\usepackage[none]{hyphenat}
+\usepackage{xskak}
+\pagenumbering{arabic}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{conj}[thm]{Conjecture}
+
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{rem}[thm]{Remark}
+\begin{document}
+
+\maketitle
+
+\newchessgame
+
+\mainline{1.b3} \\ % <--dein Zug in algebraischer Notation
+
+\showboard 
+
+\end{document}
